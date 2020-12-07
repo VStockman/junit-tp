@@ -4,7 +4,7 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 import src.Money;
-
+import src.MoneyBag;
 
 public class MoneyTest {
 	
@@ -30,5 +30,13 @@ public class MoneyTest {
 		Money moneyToAddUsd = new Money(40, "USD");
 		
 		assertEquals(money.add(moneyToAddEur).Amount(), 30);
+	}
+	
+	@org.junit.Test
+	public void MoneyBag() {
+		MoneyBag myMoneyBag = new MoneyBag();
+		myMoneyBag.add(new Money(20, "EUR"));
+		myMoneyBag.subb(new Money(20, "EUR"));
+		myMoneyBag.normalize("USD");
 	}
 }

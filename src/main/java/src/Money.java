@@ -1,8 +1,8 @@
 package src;
 
 public class Money {
-	private int fAmount;
-	private String fCurrency;
+	 int fAmount;
+	String fCurrency;
 	
 	public Money(int amount, String currency) {
 		this.fAmount = amount;

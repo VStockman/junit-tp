@@ -34,7 +34,7 @@ public class VecteurUnion {
             }
         };
 
-        Vector<Object> thirdTest = VectorUnion.UnionSet(firstTest, secondTest);
+        Vector<Object> thirdTest = VecteurUnion.UnionSet(firstTest, secondTest);
     }
 
 }

@@ -35,6 +35,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
-	<classpathentry exported="true" kind="lib" path="/Users/valentinstockman/Downloads/jar_files/junit5-4.1.6.jar"/>
+	<classpathentry kind="lib" path="/Users/valentinstockman/Downloads/junit-jupiter-api-5.7.0.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

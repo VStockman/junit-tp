@@ -27,7 +27,7 @@ public class MoneyTest {
 	@org.junit.Test
 	public void AdditionTest() {
 		Money moneyToAddEur = new Money(20, "EUR");
-		Money moneyToAddUsd = new Money(40, "USD");
+		//Money moneyToAddUsd = new Money(40, "USD");
 		
 		assertEquals(money.add(moneyToAddEur).Amount(), 30);
 	}

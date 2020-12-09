@@ -1,22 +1,16 @@
 package test;
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
 
-import src.Money;
-import src.MoneyBag;
 
 import java.util.Vector;
-
-import org.junit.Test;
-import static org.junit.jupiter.api.BeforeAll;
 
 import src.VecteurUnion;
 
 public class VecteurTest {
     
 
-    @Test
+	@org.junit.Test
     public void TestMergeVectors(){
         Vector<Object> firstTest = new Vector<Object>() {
             private static final long serialVersionUID = 1L;
